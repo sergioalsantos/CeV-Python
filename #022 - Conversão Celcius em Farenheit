@@ -1,0 +1,4 @@
+c = float(input('Informe a temperatura Celcius.:'))
+convert = ((9 * c) / 5) + 32
+print('A temperatura em Celcius é {:.2f}, e a temperatura em Fahrenheit é {:.2f}'.format(
+    c, convert))

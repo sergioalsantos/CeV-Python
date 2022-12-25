@@ -1,0 +1,12 @@
+num = int(input('Digite a sua idade para alistamento Militar: '))
+if num >= 18:
+    print('Pode se alistar')
+elif num <= 18:
+    print('Ainda não precisa se alistar')
+
+
+
+# de acordo com o primeiro exercicio de acordo com as informações obtididas no site do Python.org e também 
+# as aulas de do canal "Didatica Tech" foram de forma satisfatoria para aprendizado da condição "if e elif" 
+# usando uma string e a sua estrutura para aperfeiçoamento do exetcicio.
+# Data: 09-12-202

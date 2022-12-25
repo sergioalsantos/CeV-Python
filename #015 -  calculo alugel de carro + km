@@ -1,0 +1,7 @@
+carro = float(input('Informe quantos dias o carro foi alugado..:'))
+km = float(input('Informe quantos Km´s rodados..:'))
+aluguel = 60 * carro
+total = 0.15 * km
+result = total + aluguel
+print('O valor do aluguel do carro é {}, o total de km percorrido é {} e o total a pagar é R$ {}'.format(
+    aluguel, km, result))

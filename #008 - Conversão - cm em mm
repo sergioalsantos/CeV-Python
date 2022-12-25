@@ -1,0 +1,8 @@
+import math
+num = int(input('Digite a metragem para aconversão..:'))
+
+c = num * 100
+m = num * 1000
+
+
+print('O valor de centrimetro é {} e o valor de milimetro é {}!'.format(c, m))

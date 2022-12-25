@@ -1,0 +1,9 @@
+
+num = int(input('Digite seu salário..:'))
+
+salario = num
+aumento = 15
+print('Seu salario atual é de {}'.format(num))
+print('Seu aumento é de 15% sobre o salario')
+print('Seu salario já incluso o aumento ficou de {}'.format(
+    salario + (salario * aumento / 100)))

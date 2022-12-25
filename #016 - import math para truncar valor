@@ -1,0 +1,4 @@
+import math
+num = float(input('Digite o numero..:'))
+print('O numero que digitou é {} e seu valor interiro é {}'.format(
+    num, math.trunc(num)))

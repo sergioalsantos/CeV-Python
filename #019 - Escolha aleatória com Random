@@ -1,0 +1,29 @@
+# nome = str(input('Digite seu nome: '))
+# frase.lower()
+# print('Seu nome é {}'.format(nome))
+# frase.upper()
+# print('Seu nome é {}'.format(nome))
+# print(frase)
+# len(frase)
+# print(frase)
+# len(frase[0:6])
+# print(frase)
+#nome = str(input('Digite seu nome completo: '))
+#print('Analisando seu nome..:')
+#print('Seu nome em maiúscula é {}'.format(nome.upper()))
+#print('Seu nome em me nuscula é {}'.format(nome.lower()))
+#print('Seu nome tem ao todo {} letras'.format(len(nome) - nome.count(' ')))
+# print('Seu primeiro nome tem {} letras'.format(nome.find(' ')))
+#separa = nome.split()
+# print('Seu primeiro nome é {} e ele tem {} letras'.format(
+#    separa[0]), len(separa[0]))
+
+from random import choice
+n1 = str(input('Primeiro Aluno: '))
+n2 = str(input('Segundo Aluno: '))
+n3 = str(input('Terceiro Aluno: '))
+n4 = str(input('Quarto Aluno: '))
+lista = [n1, n2, n3, n4]
+escolhido = choice(lista)
+print('O aluno escolhido foi {}'.format(escolhido))
+

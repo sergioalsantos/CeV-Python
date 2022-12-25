@@ -1,0 +1,5 @@
+nome = str(input('Digite seu nome: '))
+num1 = int(input('Digite o ano de nascimento com 4 digitos: '))
+idade = num1 + 100
+result = idade
+print('Ola {}, voce fará 100 anos em {}'.format(nome, idade))

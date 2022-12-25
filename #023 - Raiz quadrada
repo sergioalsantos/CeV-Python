@@ -1,0 +1,4 @@
+from math import ceil, sqrt
+num = int(input('Digite um valor..:'))
+raiz = sqrt(num)
+print('A raiz de {} é igual ao {}'.format(num, ceil(raiz)))

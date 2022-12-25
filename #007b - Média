@@ -1,0 +1,6 @@
+num1 = int(input('Digite a nota da 1° unidade: '))
+num2 = int(input('Digite a nota da 2° unidade: '))
+
+media = num1+num2
+media = media / 2
+print('Sua media é...: {}!'.format(media))

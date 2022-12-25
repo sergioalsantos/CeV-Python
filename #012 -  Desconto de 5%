@@ -1,0 +1,6 @@
+num = float(input('Digite o valor do produto..:R$'))
+
+desconto = num - (num * 5 / 100)
+
+print('O valor da compra é R$ {:.2f}, com o desconto de 5% vai pagar R$ {:.2f}'.format(
+    num, desconto))

@@ -1,0 +1,15 @@
+comida = str(input('Digite o nome de quais alimentos com calorias :  '))
+if comida == 'pizza':
+    print('Tem a caloria alta de 3000 calorias')
+if comida == 'arroz':
+    print('Tem a caloria mediana de 1200 calorias')
+if comida == 'feijao':
+    print('Tem a acaloria intermediana de 1500 calorias')
+elif comida == 'alface':
+    print('Tem a caloria baixa: 200 calorias')
+
+
+# de acordo com as informações obtididas no site do Python.org e também as aulas de do canal "Didatica Tech" 
+# foram de forma satisfatoria para aprendizado da condição "if e elif" usando uma string e a sua estrutura 
+#para aperfeiçoamento do exetcicio.
+# Data: 09-12-2022

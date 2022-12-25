@@ -1,0 +1,7 @@
+num = float(input('Digite o valor..:R$'))
+
+Dolar = num / 5.42
+Euro = num / 5.52
+Libras = num / 6.35
+
+print('Com o valor de R${:.2f}, compra-se U$ {:.2f} Dólares , compra-se EUR {:.2f} Euros, compra-se GBP {:.2f} Libra Esterlinas'.format(num, Dolar, Euro, Libras))

@@ -1,0 +1,26 @@
+from math import radians, sin, cos, tan
+angulo = float(input('Digite o o angulo que deseja.:'))
+seno = sin(radians(angulo))
+coss = cos(radians(angulo))
+tang = tan(radians(angulo))
+
+print('Angulo {}, SENO {:.2f}, COSSENO {:.2f} e TANGENTE {:.2f}'.format(
+    angulo, seno, coss, tang))
+
+
+
+# Nessa aula foi mais dificil, pois o problema foi saber como iria colocar as formulas
+# de forma correta, contudo simplifiquei o "print" e tem como importar as pastas 
+# de uma bibioteca.
+
+#import math
+#angulo = float(input('Digite o o angulo que deseja.:'))
+#seno = math.sin(math.radians(angulo))
+#coss = math.cos(math.radians(angulo))
+#tang = math.tan(math.radians(angulo))
+
+#print('O valor do angulo é {} e o SENO {:.2f}'.format(angulo, seno))
+#print('O valor do angulo é {} e o COSSENO {:.2f}'.format(angulo, coss))
+#print('O valor do angulo é {} e a TANGENTE {:.2f}'.format(angulo, tang))
+
+# AULA 18 - https://www.youtube.com/watch?v=9GvsphwW26k&t=2s

@@ -1,0 +1,7 @@
+import math
+num = float(input('Digite um nume para saber se é ou impar: '))
+if num % 2 == 0:
+
+    print('{} É par.'.format(num))
+else:
+    print('{} É impar.'.format(num))
